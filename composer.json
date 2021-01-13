@@ -1,0 +1,18 @@
+{
+    "name":"upwardsprint",
+    "description":"upwardsprint ramkashyap",
+    "repositories":[
+        {
+            "type":"package",
+            "package":{
+                "name":"upwardsprint",
+                "version":"master",
+                "source":{
+                    "url":"",
+                    "type":"git",
+                    "reference":"master"
+                }
+            }
+        }
+    ]
+}
