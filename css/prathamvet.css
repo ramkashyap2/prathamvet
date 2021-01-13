@@ -1,5 +1,6 @@
 .header-top-info li span {
     font-size: 0.9rem;
+    margin-left: 15px;
 }
 .top-menu {
     display: flex;
@@ -16,7 +17,7 @@
 }
 .services-item img {
     width: 100%;
-    height: 100%;
+    height: 100px;
     -o-object-fit: cover;
     object-fit: cover;
 }
