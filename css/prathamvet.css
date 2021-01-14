@@ -35,3 +35,6 @@
 .item-style {
     box-shadow: 0.125rem 0.25rem 1.25rem 0.0875rem rgba(45, 45, 45, .13);
 }
+.mb-16 {
+    margin-bottom: 1rem;
+}

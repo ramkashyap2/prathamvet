@@ -9975,7 +9975,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .section {
     position: relative;
-    padding: 5rem 0
+    padding: 2rem 0
 }
 
 .page-sections {
@@ -10130,7 +10130,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .main-content {
     position: relative;
-    padding: 5rem 0
+    padding: 2rem 0;
 }
 
 .title-center {
@@ -10601,7 +10601,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .item {
-    margin-bottom: 45px
+    margin-bottom: 0px
 }
 
 .content-items {
