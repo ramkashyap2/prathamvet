@@ -9229,6 +9229,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 .main-mnu-list {
     display: flex;
     margin-left: -1.25rem;
+    margin-top: 8px;
 }
 
 .main-mnu-list>li {
@@ -9632,7 +9633,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .header-search-ico:hover {
-    color: #2c7ae7
+    color: rgba(255, 255, 255, .8);
 }
 
 .header-search-ico-close,
