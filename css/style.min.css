@@ -1341,7 +1341,7 @@ html {
         margin-left: 0
     }
     .offset-xl-1 {
-        margin-left: 8.33333%
+        margin-right: 8.33333%
     }
     .offset-xl-2 {
         margin-left: 16.66667%
@@ -6876,14 +6876,14 @@ textarea {
 }
 
 .intro {
-    min-height: 500px;
+    min-height: 300px;
     position: relative;
     z-index: 1
 }
 
 .intro-slider,
 .intro-slider-item {
-    height: 600px;
+    height: 300px;
     overflow: hidden;
     display: block
 }
@@ -8836,15 +8836,15 @@ textarea {
 
 .header-top {
     position: relative;
-    background-color: #cd0b00;
+    background-color: #cd0b00d1;
     color: rgba(255, 255, 255, .8);
-    padding: .625rem 0;
+    padding: .9rem 0;
     font-size: 1rem;
     z-index: 1
 }
 
 .header-top i {
-    color: #fff
+    /* color: #fff; */
 }
 
 .header-top a {
@@ -9270,9 +9270,10 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .main-mnu-list>li>a {
-    font-size: .9375rem;
+    /* font-size: .9375rem; */
+    font-size: 1rem;
     padding: 0 .5rem;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .main-mnu-list>li>a::after {
@@ -9660,10 +9661,10 @@ body.mob-main-mnu-open .mob-main-mnu {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     display: flex;
     align-items: center;
-    padding-right: 32px;
+    padding-right: 126px;
     opacity: 0;
     visibility: hidden;
     z-index: 2
@@ -10251,10 +10252,10 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .footer {
     position: relative;
-    background-color: #303036;
+    background-color: #f3f3f3;
     width: 100%;
-    color: #fff;
-    font-size: 1rem
+    color: #000;
+    font-size: 1rem;
 }
 
 .footer i,
@@ -10264,16 +10265,16 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .footer a {
     opacity: .8;
-    color: #fff;
+    color: #000;
     text-decoration: none
 }
 
 .footer a:hover {
-    color: #fff
+    color: #000;
 }
 
 .footer a::after {
-    color: #fff
+    color: #000;
 }
 
 .footer.footer-light {
@@ -10402,11 +10403,11 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .footer-company-top .logo {
-    opacity: 1
+    opacity: 1;
 }
 
 .footer-main {
-    padding: 5rem 0
+    padding: 2rem 0;
 }
 
 .footer-company-info {
@@ -10473,7 +10474,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .footer-item:last-child {
-    margin-bottom: 0
+    margin-bottom: 30px;
 }
 
 .footer-item-title {
@@ -10559,8 +10560,8 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .footer-bottom {
-    padding: 3rem 0;
-    border-top: 1px solid rgba(255, 255, 255, .2)
+    padding: 2rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2)
 }
 
 .footer-bottom .copyright {
@@ -10589,7 +10590,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 .footer-links ul li a {
     display: block;
     text-decoration: none;
-    border-bottom: 1px dashed #fff
+    border-bottom: 1px dashed #000;
 }
 
 .footer-links ul li a:hover {
